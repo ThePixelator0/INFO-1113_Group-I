@@ -7,6 +7,9 @@ File Legend:
 	Master
 		The final file. What we hand in when we are finished with the project.
 		This will need to be converted into a Microsoft Word document before we hand it in.
+
+	Links
+		A collection of links to project resources.
 		
 	Introduction
 		The introduction paragraph

@@ -23,3 +23,6 @@ File Legend:
 
 	Requirements
 		Paragraph for description of all requirements
+
+	Project_Experience
+		Experiences of the whole group on how the project went, overall. Can have differing opinions. Only one file, worked on by all members.

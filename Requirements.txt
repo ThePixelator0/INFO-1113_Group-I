@@ -20,5 +20,12 @@ Non-Functional Requirements:
 
 // Paragraph:
 
-The functional requirements of GrocerySource are simple. It needs to allow the customer to order a list of groceries from a store of their choosing and take payment to confirm the order. The order and the store's required payment will be sent to employees. They are required to fulfill the order by retrieving items from the shelves within the store to the best of their ability and they will need to load the order either into the customer's vehicle if the customer selected pickup, or into a delivery vehicle. These vehicles are required to transport the order of each customer to the specified address. 
-The non-functional requirements are more niche items that provide a better experience while using this application. When choosing items to order, a page will be displayed that will show the rating of the item based off of reviews from other customers, and will show data based on each store. That data includes the price of the item and the likelyhood of that item being available. GrocerySource will also display data of each store when selecting which to place the order to. These include the rating of the store that is determined in the same way as the rating of each item, the distance to the store, the earlist time the customer will be able to receive their items, and whether the store offers delivery, pickup, both or neither.
+The functional requirements of GrocerySource are simple. It needs to allow the customer to order a list of groceries from a store of their choosing 
+and take payment to confirm the order. The order and the store's required payment will be sent to employees. They are required to fulfill the order 
+by retrieving items from the shelves within the store to the best of their ability and they will need to load the order either into the customer's 
+vehicle if the customer selected pickup, or into a delivery vehicle. These vehicles are required to transport the order of each customer to the specified address. 
+The non-functional requirements are more niche items that provide a better experience while using this application. When choosing items to order, 
+a page will be displayed that will show the rating of the item based off of reviews from other customers, and will show data based on each store. 
+That data includes the price of the item and the likelyhood of that item being available. GrocerySource will also display data of each store when 
+selecting which to place the order to. These include the rating of the store that is determined in the same way as the rating of each item, 
+the distance to the store, the earlist time the customer will be able to receive their items, and whether the store offers delivery, pickup, both or neither.

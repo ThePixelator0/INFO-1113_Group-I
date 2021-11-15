@@ -1,6 +1,13 @@
 This contains the files for all paragraphs required for the completion of Assignment 3 in INFO-1113.
 I will be making a seperate file for each of my paragraphs, but if I am the only one who wants to do this then I don't mind.
 
+Nomenclature:
+
+	GrocerySource:
+		The name of the project
+
+
+
 
 File Legend:
 
@@ -13,3 +20,6 @@ File Legend:
 		
 	Introduction
 		The introduction paragraph
+
+	Requirements
+		Paragraph for description of all requirements

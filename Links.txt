@@ -4,3 +4,5 @@ Project GitHup:
 	https://github.com/ThePixelator0/INFO-1113_Group-I
 Project Trello:
 	https://trello.com/b/Y4oZ61RV/assignment-3
+Project Website (From assignemnt 2):
+	https://sites.google.com/view/grocerysource/

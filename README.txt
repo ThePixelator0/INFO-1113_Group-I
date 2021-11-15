@@ -4,8 +4,9 @@ I will be making a seperate file for each of my paragraphs, but if I am the only
 
 File Legend:
 
-	Master.docx
-		The final file. What we hand in when we are finished with the project
+	Master
+		The final file. What we hand in when we are finished with the project.
+		This will need to be converted into a Microsoft Word document before we hand it in.
 		
-	Introduction.docx
+	Introduction
 		The introduction paragraph

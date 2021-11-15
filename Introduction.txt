@@ -1,0 +1,1 @@
+GrocerySource is an application that is designed to allow everyday grocery shopers the oppurtunity to get the best deals without suffering convienience. It provides all of the information needed about which stores are best to order from for quality, price, or any other factor one could want.

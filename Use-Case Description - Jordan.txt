@@ -1,0 +1,41 @@
+Use Case Title: Order Groceries
+Primary Actor: Customer
+Level: Kite (Summary)
+Stakeholders: Customer, Store
+Precondition: Customer accesses the GrocerySource website
+Minimal Gaurantee: Rollback of any uncompleted transaction
+Success Guarantee: Grocery order completed; sent to desired store. 
+Trigger: Customer accesses GrocerySource website
+
+Main Success Scenario:
+	1. Customer searches for and adds all desired items to grocery cart 
+	2. Customer searches for and selects desired store
+	3. Store is contacted to ensure availability
+	4. Payment method has the price of the order held. 
+	5. Store receives details of order
+	6. Customer is provided confirmation of order details
+
+Extentions:
+	1a. Customer is unable to find desired item(s) on website
+		1a1. Customer searches for similar item(s)
+		1a2. Customer does not order item(s)
+		1a3. Customer exits website
+	1b. Website search function is not available
+		1b1. Customer exits website
+	2a. Customer is unable to find desired store
+		2a1. Customer exits website
+		2a2. Customer selects a different store
+	3a. Store in unable to be contacted 
+		3a1. Customer notified of issue. Customer selects a different store
+		3a2. Customer notified of issue. Customer exits website
+	3b. Store has issues regarding order fulfillment
+		3b1. Customer notified of issue. Customer selects a different store
+		3b2. Customer notified of issue. Customer exits website
+	4a. Hold is unable to be placed on selected payment method
+		3a1. Customer notified of issue. Customer exits website
+		3a2. Customer notified of issue. Customer attempts payment with different method.
+	5a. Store is unable to receive order details
+		5a1. Customer notified of issue. Hold on card removed. Customer exits website.
+		5a2. Customer notified of issue. Hold on card removed. Customer attempts to place order again.
+	6a. Order details are unable to be provided
+		6a1. Customer is notified. Order details will be sent to customer upon generation completion.

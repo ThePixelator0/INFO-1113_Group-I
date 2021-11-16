@@ -1,0 +1,33 @@
+This is a template. Replace everything in [] with the paragraph written for it.
+
+Anything with * is something I wasn't sure where to put. That doesn't mean everything else is perfect, though.
+
+[Introduction]
+
+[Executive Summary]
+
+[Requirements]
+
+[Use-Case Diagram]
+
+[Use-Case Description 1]
+
+[Use-Case Description 2]
+
+[Use-Case Description 3]
+
+[Class Diagram]
+
+[Class Diagram Review]
+
+[Interface Prototype]
+
+[Relational Database]*
+
+[Professional Report]*
+
+[Project Experience]
+
+[Conclusion]
+
+[Work Cited]

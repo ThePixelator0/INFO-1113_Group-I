@@ -28,3 +28,11 @@ File Legend:
 	Project_Experience
 		Experiences of the whole group on how the project went, overall. Can have differing opinions. 
 		Only one file, worked on by all members.
+
+	Use-Case Description - Template
+		The template for writing use-case descriptions. Taken from the example provided by 
+		Figure 7-32, page 226 of [1]
+
+	Use-Case Description - Jordan
+		The use-case description for ordering groceries online via GrocerySource's website.
+		Used the Template as the base.

@@ -4,5 +4,7 @@ Project GitHup:
 	https://github.com/ThePixelator0/INFO-1113_Group-I
 Project Trello:
 	https://trello.com/b/Y4oZ61RV/assignment-3
+Use-Case Diagram:
+	https://lucid.app/lucidchart/b8488c03-4a9c-4659-b96b-5163e9c08d75/edit?viewport_loc=12%2C241%2C1672%2C803%2C.Q4MUjXso07N&invitationId=inv_08f57a14-7f3d-49f3-a512-e3bf6a00acce
 Project Website (From assignemnt 2):
 	https://sites.google.com/view/grocerysource/

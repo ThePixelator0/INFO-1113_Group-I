@@ -1,0 +1,23 @@
+Use Case Title: 
+Primary Actor:
+Level:
+Stakeholders:
+Precondition:
+Minimal Gaurantee:
+Success Guarantee:
+Trigger: 
+Main Success Scenario:
+	1.
+	2.
+	3.
+	etc
+Extentions:
+	1a.
+		1a1.
+	1b.
+		1b1.
+		1b2.
+		1b3.
+	2a.
+		2a1.
+	etc

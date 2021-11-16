@@ -1,0 +1,1 @@
+These images were created with Krita image editor. Use that software to open .kra filetypes.

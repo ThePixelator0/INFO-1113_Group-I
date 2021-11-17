@@ -1,0 +1,12 @@
+Class Diagram: https://lucid.app/lucidchart/bc68c61b-2c42-412f-8640-a3a17ac69cd4/edit?shared=true&page=0_0#
+
+Saved in Database:
+	Customer ID
+	Customer Password
+Detail Attributes:
+	Grocery Cart
+		Saved locally
+	Store List
+		Saved in Database
+	
+WIP

@@ -1,6 +1,3 @@
-This is a template. Replace everything in [] with the paragraph written for it.
-
-
 [Introduction]
 GrocerySource is an application that is designed to allow everyday grocery shopers the oppurtunity to get the best deals without suffering convienience. It provides all of the information needed to determine which stores are best to order from for quality, price, or any other factor one could want. This report will go into detail of the requirements, functions, stakeholders, and much more information about the application.
 
@@ -60,7 +57,7 @@ Extentions:
 
 [Use-Case Description 2] #Chandanpreet
 
-[Use-Case Description 3] #Jordan (Robin)
+[Use-Case Description 3] #Jordan (replacing Robin)
 Use Case Title: Deliver Groceries
 Primary Actor: Driver
 Level: Kite (Summary)

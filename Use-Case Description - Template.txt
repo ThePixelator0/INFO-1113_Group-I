@@ -1,43 +1,33 @@
-Use Case Title: Order Groceries
-Primary Actor: Customer
+Use Case Title: Receive Order 
+Primary Actor: Store employee
 Level: kite
-Stakeholders: Customer , Store
-Precondition: Access the grocery store website
-Minimal Gaurantee: rollback of payment for defective material 
+Stakeholders:  Store
+Precondition: Access the grocery order
+Minimal Gaurantee: offers discount in case of delay 
 Success Guarantee: grocery order completed
 Trigger: customer access grocery store website 
-Main Success Scenario:
-	1.customer search for grocery 
-	customer find the items
-	customer add the items to the cart
-	2.customer search for store website
-	customer compare the rating with the other stores 
-	customer find the affordable store
-	3.customer order the grocery
-	4.order is received by the store
-	store look for the items ordered
-	5.store delivered the order
-	order is received by customer
-	etc
+Main Success Scenerio :
+       1.order is received by the store
+       store check the customer name and ID
+       received the payment
+	  2. store look for the items ordered
+	    store pack the ordered items 
+	3.store delivered the order to customer address
+	    order is received by customer
+	
 Extentions:
-	1a.customer search for grocery 
-		1a1.customer didnot find the required item
-		customer exit the website
-		1a2. customer find the required items
-		customer choose the items
-	1b.customer search for stores
-		1b1.customer didnot find the best store 
-		customer exit the website
-		1b2.customer find the store 
-		customer find the items expensive 
-		customer exit the website
-		1b3.customer find the affordable  store 
-		customer places the order
-	2a.store receive the order 
+	1a.store look for grocery ordered 
+		1a1.ordered items are not available
+		store stocked the items 
+		store shop the items 
+		1a2. Store unable to complete the required items
+		store contact the customer
+	1b.ordered items are available
+		1b1. store gives discount if there is one.
+		store packed the items 
+		1b2. store gives membership card
+		
+	2a.store completed the order 
+	
+		2a1 store gives the order to delivery driver to deliver at given address
 
-		2a1.store look for ordered things
-		store fill up the stocks
-		store completed the order 
-		2a2 store delivered the item
-		store received the payment
-	etc

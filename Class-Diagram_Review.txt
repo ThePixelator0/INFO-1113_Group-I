@@ -5,8 +5,8 @@ Saved in Database:
 	Customer Password
 Detail Attributes:
 	Grocery Cart
-		Saved locally
-	Store List
+	List of Stores
 		Saved in Database
 	
-WIP
+To review the Class Diagram that was created, We first determined the information that we wanted to save in a database, rather than saving it on the Customer's or the Store's local hardware. That Information is the Customer's login information, the list of Items the Customer can purchase, and the list of Stores those items can be purchased from.
+The detail attributes of the Customer's login information is their email and their password. Both of these peices of information will be saved on a database. When a user successfully enters a correct email and the associated password, they will be granted access to their account. The list of items will also have quite a few more peices of information. This includes the average price of the item, the price of the item at stores close to the user, the average rating of the item as well as the reviews for it, and which stores nearby have it available. The additional information associated with the list of stores shares some similarities with the list of items. It needs the average and all ratings on the specified store, the distance from the user to the store, and the wait time to receive your items.

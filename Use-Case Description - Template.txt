@@ -1,23 +1,43 @@
-Use Case Title: 
-Primary Actor:
-Level:
-Stakeholders:
-Precondition:
-Minimal Gaurantee:
-Success Guarantee:
-Trigger: 
+Use Case Title: Order Groceries
+Primary Actor: Customer
+Level: kite
+Stakeholders: Customer , Store
+Precondition: Access the grocery store website
+Minimal Gaurantee: rollback of payment for defective material 
+Success Guarantee: grocery order completed
+Trigger: customer access grocery store website 
 Main Success Scenario:
-	1.
-	2.
-	3.
+	1.customer search for grocery 
+	customer find the items
+	customer add the items to the cart
+	2.customer search for store website
+	customer compare the rating with the other stores 
+	customer find the affordable store
+	3.customer order the grocery
+	4.order is received by the store
+	store look for the items ordered
+	5.store delivered the order
+	order is received by customer
 	etc
 Extentions:
-	1a.
-		1a1.
-	1b.
-		1b1.
-		1b2.
-		1b3.
-	2a.
-		2a1.
+	1a.customer search for grocery 
+		1a1.customer didnot find the required item
+		customer exit the website
+		1a2. customer find the required items
+		customer choose the items
+	1b.customer search for stores
+		1b1.customer didnot find the best store 
+		customer exit the website
+		1b2.customer find the store 
+		customer find the items expensive 
+		customer exit the website
+		1b3.customer find the affordable  store 
+		customer places the order
+	2a.store receive the order 
+
+		2a1.store look for ordered things
+		store fill up the stocks
+		store completed the order 
+		2a2 store delivered the item
+		store received the payment
 	etc

@@ -1,33 +1,87 @@
 This is a template. Replace everything in [] with the paragraph written for it.
 
-Anything with * is something I wasn't sure where to put. That doesn't mean everything else is perfect, though.
 
 [Introduction]
+GrocerySource is an application that is designed to allow everyday grocery shopers the oppurtunity to get the best deals without suffering convienience. It provides all of the information needed to determine which stores are best to order from for quality, price, or any other factor one could want. This report will go into detail of the requirements, functions, stakeholders, and much more information about the application.
 
-[Executive Summary]
+			[Executive Summary]
 
-[Requirements]
+[Requirements] 
+The functional requirements of GrocerySource are simple. It needs to allow the customer to order a list of groceries from a store of their choosing and take payment to confirm the order. The order and the store's required payment will be sent to employees. They are required to fulfill the order by retrieving items from the shelves within the store to the best of their ability and they will need to load the order either into the customer's vehicle if the customer selected pickup, or into a delivery vehicle. These vehicles are required to transport the order of each customer to the specified address. The non-functional requirements are more niche items that provide a better experience while using this application. When choosing items to order, a page will be displayed that will show the rating of the item based off of reviews from other customers, and will show data based on each store. That data includes the price of the item and the likelyhood of that item being available. GrocerySource will also display data of each store when selecting which to place the order to. These include the rating of the store that is determined in the same way as the rating of each item, the distance to the store, the earlist time the customer will be able to receive their items, and whether the store offers delivery, pickup, both or neither.
 
-[Use-Case Diagram]
+	[Use-Case Diagram]
+*Insert Image*
 
 [Use-Case Description 1]
+Use Case Title: Order Groceries
+Primary Actor: Customer
+Level: Kite (Summary)
+Stakeholders: Customer, Store
+Precondition: Customer accesses the GrocerySource website
+Minimal Gaurantee: Rollback of any uncompleted transaction
+Success Guarantee: Grocery order completed; sent to desired store. 
+Trigger: Customer accesses GrocerySource website
 
-[Use-Case Description 2]
+Main Success Scenario:
+	1. Customer searches for and adds all desired items to grocery cart 
+	2. Customer searches for and selects desired store
+	3. Store is contacted to ensure availability
+	4. Payment method has the price of the order held. 
+	5. Store receives details of order
+	6. Customer is provided confirmation of order details
 
-[Use-Case Description 3]
+Extentions:
+	1a. Customer is unable to find desired item(s) on website
+		1a1. Customer searches for similar item(s)
+		1a2. Customer does not order item(s)
+		1a3. Customer exits website
+	1b. Website search function is not available
+		1b1. Customer exits website
+	2a. Customer is unable to find desired store
+		2a1. Customer exits website
+		2a2. Customer selects a different store
+	3a. Store in unable to be contacted 
+		3a1. Customer notified of issue. Customer selects a different store
+		3a2. Customer notified of issue. Customer exits website
+	3b. Store has issues regarding order fulfillment
+		3b1. Customer notified of issue. Customer selects a different store
+		3b2. Customer notified of issue. Customer exits website
+	4a. Hold is unable to be placed on selected payment method
+		3a1. Customer notified of issue. Customer exits website
+		3a2. Customer notified of issue. Customer attempts payment with different method.
+	5a. Store is unable to receive order details
+		5a1. Customer notified of issue. Hold on card removed. Customer exits website.
+		5a2. Customer notified of issue. Hold on card removed. Customer attempts to place order again.
+	6a. Order details are unable to be provided
+		6a1. Customer is notified. Order details will be sent to customer upon generation completion.
 
-[Class Diagram]
+								[Use-Case Description 2]
 
-[Class Diagram Review]
+								[Use-Case Description 3]
 
-[Interface Prototype]
+	[Class Diagram]
+*Insert Image*
 
-[Relational Database]*
+[Class Diagram Review]	
+To review the Class Diagram that was created, We first determined the information that we wanted to save in a database, rather than saving it on the Customer's or the Store's local hardware. That Information is the Customer's login information, the list of Items the Customer can purchase, and the list of Stores those items can be purchased from.
+The detail attributes of the Customer's login information is their email and their password. Both of these peices of information will be saved on a database. When a user successfully enters a correct email and the associated password, they will be granted access to their account. The list of items will also have quite a few more peices of information. This includes the average price of the item, the price of the item at stores close to the user, the average rating of the item as well as the reviews for it, and which stores nearby have it available. The additional information associated with the list of stores shares some similarities with the list of items. It needs the average and all ratings on the specified store, the distance from the user to the store, and the wait time to receive your items.
 
-[Professional Report]*
+	[Interface Prototype]
+*Image*
 
-[Project Experience]
+	[Relational Database]
+*Image*
 
-[Conclusion]
+								[Project Experience]
 
-[Work Cited]
+Conclusion]
+To conclude, this report contains all of the information required to create the website application GrocerySource. It listed the Items available and all associated information that will be supplied with each one, the list of stores with their respecive information, and it also described the minor and major functions as well as stakeholders. 
+
+Work Cited:
+[1] Donnelly, Robert A. Business Statistics. Pearson Education, Inc., 2020. 
+[2] Bird, Beverly. “How to Write an Executive Summary.” Bizfluent, 11 Feb. 2019, https://bizfluent.com/how-16566-write-executive-summary.html.
+[3] Use-Case Diagram
+[4] Class Diagram
+[5] Relational Database
+[6] Project Trello
+[7] Project GitHub

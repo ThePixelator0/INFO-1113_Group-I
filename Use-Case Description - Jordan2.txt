@@ -1,0 +1,34 @@
+Use Case Title: Deliver Groceries
+Primary Actor: Driver
+Level: Kite (Summary)
+Stakeholders: Customer, Store, Driver
+Precondition: Order has been completed at the store
+Minimal Gaurantee: Items in order will be available for the customer
+Success Guarantee: Grocery order will be delivered; sent to specified address. 
+Trigger: Order fulfilled by Store Employee(s)
+
+Main Success Scenario:
+	1. Driver is notified order is complete and given order information
+	2. Driver arrives at store
+	3. Driver is given order to deliver
+	4. Driver arrives at specified address
+	5. Driver finishes delivering groceries
+
+Extentions:
+	1a. Driver is unable to be notified
+		1a1. A different driver is notified
+	2a. Driver arrives at incorrect store
+		2a1. Driver contacts correct store; Drives to correct store; Customer is informed.
+		2a2. Driver contacts correct store; A different driver is assigned and notified; Customer is informed.
+	3a. Driver receives incorrect order; notices upon receiving items.
+		3a1. Driver informs store; Incorrect items replaced with correct items; Customer is informed.
+	4a. Driver arrives at incorrect address
+		4a1. Customer notifies driver of issue; driver returns to incorrect address and relocates items to the correct address.
+	4b. Driver is unable to locate address
+		4b1. Driver contacts customer; Customer explains how to get to address via phone call.
+		4b2. Driver is unable to contact customer; Driver returns to the store and returns items. Once customer is able to be contacted, the adress is fixed and another driver is contacted.
+	5a. Driver or Customer notices one or more items are missing
+		5a1. Driver contacts store; Item(s) are aquired. Driver returns to store, receives item(s), then returns to address and delivers them to the customer.
+		5a2. Driver contacts store; Item(s) are unavailable. Customer is refunded for the missing items and is given compensation for the inconvenience.
+	5b. Driver or Customer notices one or more items are not in the order
+		5b1. Driver contacts store; driver delivers incorrect item(s) to store to be put away.

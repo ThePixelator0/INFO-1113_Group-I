@@ -4,7 +4,10 @@ This is a template. Replace everything in [] with the paragraph written for it.
 [Introduction]
 GrocerySource is an application that is designed to allow everyday grocery shopers the oppurtunity to get the best deals without suffering convienience. It provides all of the information needed to determine which stores are best to order from for quality, price, or any other factor one could want. This report will go into detail of the requirements, functions, stakeholders, and much more information about the application.
 
-			[Executive Summary]
+[Executive Summary]
+This executive summary serves the purpose of summarizing this document in a consise manner. 
+Through providing information to the everyday consumer, GrocerySource is able to provide the customer with the price, time frame, and much more information in order for them to get the groceries that fit every need they have.
+The use-case diagram and the descriptions for it are displayed below. They go over each interaction each actor will have with GrocerySource, and the descriptions go through the specifics and the perfect success scenarios for each. The class diagram and the review of such is displayed below the use-cases, which discribes the class of ordering groceries through this system. The next detail shown is a prototype of the interfase the customer will see as they are ordering groceries through this application. The three interfaces shown are the scenario of searching for an item to add to their cart, viewing the cart before finalizing the order, and selecting the store to purchase items from. All 3 have the header of the website remain static, showing the item search bar, a link to the current grocery cart, and the title of the website. Finally, the relational database is displayed, showing the relationship between the customer, the product, the order, and other information needed to complete the order. 
 
 [Requirements] 
 The functional requirements of GrocerySource are simple. It needs to allow the customer to order a list of groceries from a store of their choosing and take payment to confirm the order. The order and the store's required payment will be sent to employees. They are required to fulfill the order by retrieving items from the shelves within the store to the best of their ability and they will need to load the order either into the customer's vehicle if the customer selected pickup, or into a delivery vehicle. These vehicles are required to transport the order of each customer to the specified address. The non-functional requirements are more niche items that provide a better experience while using this application. When choosing items to order, a page will be displayed that will show the rating of the item based off of reviews from other customers, and will show data based on each store. That data includes the price of the item and the likelyhood of that item being available. GrocerySource will also display data of each store when selecting which to place the order to. These include the rating of the store that is determined in the same way as the rating of each item, the distance to the store, the earlist time the customer will be able to receive their items, and whether the store offers delivery, pickup, both or neither.
@@ -57,12 +60,46 @@ Extentions:
 
 [Use-Case Description 2] #Chandanpreet
 
-								[Use-Case Description 3]
+[Use-Case Description 3] #Jordan (Robin)
+Use Case Title: Deliver Groceries
+Primary Actor: Driver
+Level: Kite (Summary)
+Stakeholders: Customer, Store, Driver
+Precondition: Order has been completed at the store
+Minimal Gaurantee: Items in order will be available for the customer
+Success Guarantee: Grocery order will be delivered; sent to specified address. 
+Trigger: Order fulfilled by Store Employee(s)
+
+Main Success Scenario:
+	1. Driver is notified order is complete and given order information
+	2. Driver arrives at store
+	3. Driver is given order to deliver
+	4. Driver arrives at specified address
+	5. Driver finishes delivering groceries
+
+Extentions:
+	1a. Driver is unable to be notified
+		1a1. A different driver is notified
+	2a. Driver arrives at incorrect store
+		2a1. Driver contacts correct store; Drives to correct store; Customer is informed.
+		2a2. Driver contacts correct store; A different driver is assigned and notified; Customer is informed.
+	3a. Driver receives incorrect order; notices upon receiving items.
+		3a1. Driver informs store; Incorrect items replaced with correct items; Customer is informed.
+	4a. Driver arrives at incorrect address
+		4a1. Customer notifies driver of issue; driver returns to incorrect address and relocates items to the correct address.
+	4b. Driver is unable to locate address
+		4b1. Driver contacts customer; Customer explains how to get to address via phone call.
+		4b2. Driver is unable to contact customer; Driver returns to the store and returns items. Once customer is able to be contacted, the adress is fixed and another driver is contacted.
+	5a. Driver or Customer notices one or more items are missing
+		5a1. Driver contacts store; Item(s) are aquired. Driver returns to store, receives item(s), then returns to address and delivers them to the customer.
+		5a2. Driver contacts store; Item(s) are unavailable. Customer is refunded for the missing items and is given compensation for the inconvenience.
+	5b. Driver or Customer notices one or more items are not in the order
+		5b1. Driver contacts store; driver delivers incorrect item(s) to store to be put away.
 
 	[Class Diagram]
 *Insert Image*
 
-[Class Diagram Review]	
+[Class Diagram Review]
 To review the Class Diagram that was created, We first determined the information that we wanted to save in a database, rather than saving it on the Customer's or the Store's local hardware. That Information is the Customer's login information, the list of Items the Customer can purchase, and the list of Stores those items can be purchased from.
 The detail attributes of the Customer's login information is their email and their password. Both of these peices of information will be saved on a database. When a user successfully enters a correct email and the associated password, they will be granted access to their account. The list of items will also have quite a few more peices of information. This includes the average price of the item, the price of the item at stores close to the user, the average rating of the item as well as the reviews for it, and which stores nearby have it available. The additional information associated with the list of stores shares some similarities with the list of items. It needs the average and all ratings on the specified store, the distance from the user to the store, and the wait time to receive your items.
 
@@ -80,8 +117,8 @@ To conclude, this report contains all of the information required to create the 
 Work Cited:
 [1] Donnelly, Robert A. Business Statistics. Pearson Education, Inc., 2020. 
 [2] Bird, Beverly. “How to Write an Executive Summary.” Bizfluent, 11 Feb. 2019, https://bizfluent.com/how-16566-write-executive-summary.html.
-[3] Use-Case Diagram: https://lucid.app/lucidchart/b8488c03-4a9c-4659-b96b-5163e9c08d75/edit?invitationId=inv_08f57a14-7f3d-49f3-a512-e3bf6a00acce&page=.Q4MUjXso07N#
-[4] Class Diagram: https://lucid.app/lucidchart/bc68c61b-2c42-412f-8640-a3a17ac69cd4/edit?shared=true&page=0_0#
-[5] Relational Database: https://lucid.app/lucidchart/988bddbf-2ebd-4421-a433-5fca7c7d56ac/edit?shared=true&page=0_0#
-[6] Project Trello: https://trello.com/b/Y4oZ61RV/assignment-3
-[7] Project GitHub: https://github.com/ThePixelator0/INFO-1113_Group-I
+[3] Use-Case Diagram: 		https://lucid.app/lucidchart/b8488c03-4a9c-4659-b96b-5163e9c08d75/edit?invitationId=inv_08f57a14-7f3d-49f3-a512-e3bf6a00acce&page=.Q4MUjXso07N#
+[4] Class Diagram: 			https://lucid.app/lucidchart/bc68c61b-2c42-412f-8640-a3a17ac69cd4/edit?shared=true&page=0_0#
+[5] Relational Database: 	https://lucid.app/lucidchart/988bddbf-2ebd-4421-a433-5fca7c7d56ac/edit?shared=true&page=0_0#
+[6] Project Trello: 		https://trello.com/b/Y4oZ61RV/assignment-3
+[7] Project GitHub: 		https://github.com/ThePixelator0/INFO-1113_Group-I

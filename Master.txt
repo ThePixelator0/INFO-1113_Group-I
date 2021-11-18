@@ -12,7 +12,7 @@ The functional requirements of GrocerySource are simple. It needs to allow the c
 	[Use-Case Diagram]
 *Insert Image*
 
-[Use-Case Description 1]
+[Use-Case Description 1] #Jordan
 Use Case Title: Order Groceries
 Primary Actor: Customer
 Level: Kite (Summary)
@@ -55,7 +55,7 @@ Extentions:
 	6a. Order details are unable to be provided
 		6a1. Customer is notified. Order details will be sent to customer upon generation completion.
 
-								[Use-Case Description 2]
+[Use-Case Description 2] #Chandanpreet
 
 								[Use-Case Description 3]
 
@@ -80,8 +80,8 @@ To conclude, this report contains all of the information required to create the 
 Work Cited:
 [1] Donnelly, Robert A. Business Statistics. Pearson Education, Inc., 2020. 
 [2] Bird, Beverly. “How to Write an Executive Summary.” Bizfluent, 11 Feb. 2019, https://bizfluent.com/how-16566-write-executive-summary.html.
-[3] Use-Case Diagram
-[4] Class Diagram
-[5] Relational Database
-[6] Project Trello
-[7] Project GitHub
+[3] Use-Case Diagram: https://lucid.app/lucidchart/b8488c03-4a9c-4659-b96b-5163e9c08d75/edit?invitationId=inv_08f57a14-7f3d-49f3-a512-e3bf6a00acce&page=.Q4MUjXso07N#
+[4] Class Diagram: https://lucid.app/lucidchart/bc68c61b-2c42-412f-8640-a3a17ac69cd4/edit?shared=true&page=0_0#
+[5] Relational Database: https://lucid.app/lucidchart/988bddbf-2ebd-4421-a433-5fca7c7d56ac/edit?shared=true&page=0_0#
+[6] Project Trello: https://trello.com/b/Y4oZ61RV/assignment-3
+[7] Project GitHub: https://github.com/ThePixelator0/INFO-1113_Group-I

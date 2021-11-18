@@ -1,23 +1,33 @@
-Use Case Title: 
-Primary Actor:
-Level:
-Stakeholders:
-Precondition:
-Minimal Gaurantee:
-Success Guarantee:
-Trigger: 
-Main Success Scenario:
-	1.
-	2.
-	3.
-	etc
+Use Case Title: Receive Order 
+Primary Actor: Store employee
+Level: kite
+Stakeholders:  Store
+Precondition: Access the grocery order
+Minimal Gaurantee: offers discount in case of delay 
+Success Guarantee: grocery order completed
+Trigger: customer access grocery store website 
+Main Success Scenerio :
+       1.order is received by the store
+       store check the customer name and ID
+       received the payment
+	  2. store look for the items ordered
+	    store pack the ordered items 
+	3.store delivered the order to customer address
+	    order is received by customer
+	
 Extentions:
-	1a.
-		1a1.
-	1b.
-		1b1.
-		1b2.
-		1b3.
-	2a.
-		2a1.
-	etc
+	1a.store look for grocery ordered 
+		1a1.ordered items are not available
+		store stocked the items 
+		store shop the items 
+		1a2. Store unable to complete the required items
+		store contact the customer
+	1b.ordered items are available
+		1b1. store gives discount if there is one.
+		store packed the items 
+		1b2. store gives membership card
+		
+	2a.store completed the order 
+	
+		2a1 store gives the order to delivery driver to deliver at given address
+
